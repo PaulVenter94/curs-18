@@ -2,8 +2,11 @@ package ro.fasttrackit.curs18;
 
 public class Recursiv {
 
-    public String lenght(String word) {
+    public int lenght(String word) {
         if (word == null) throw new IllegalArgumentException();
-        return word;
+        if (word.equalsIgnoreCase("")) {
+            return 0;
+        }
+        return 0;
     }
 }
