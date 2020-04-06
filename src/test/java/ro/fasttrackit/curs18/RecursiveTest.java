@@ -24,6 +24,6 @@ public class RecursiveTest {
     @Test
     @DisplayName("WHEN empty string is given THEN return 0")
     void ifEmptyString() {
-        assertThat(recursiv.lenght("")).isEqualTo(1);
+        assertThat(recursiv.lenght("")).isEqualTo(0);
     }
 }
