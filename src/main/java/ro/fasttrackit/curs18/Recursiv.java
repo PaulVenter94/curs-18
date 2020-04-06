@@ -6,7 +6,8 @@ public class Recursiv {
         if (word == null) throw new IllegalArgumentException();
         if (word.equalsIgnoreCase("")) {
             return 0;
+        } else {
+            return 1 + lenght(word.substring(1));
         }
-        return 0;
     }
 }
